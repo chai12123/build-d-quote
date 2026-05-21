@@ -1,0 +1,6 @@
+{
+  "name": "Built D",
+  "description": "ระบบประเมินราคาสร้างบ้านเบื้องต้นเพื่อใช้ตั้งงบประมาณตามเกรดวัสดุและพื้นที่ใช้สอย โดยทีมงาน Built D",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

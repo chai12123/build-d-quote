@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Noto+Sans+Thai:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans Thai", "Noto Sans Thai", "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+  
+  --color-warm-bg: #FAF8F4;
+  --color-charcoal: #2A2A2A;
+  --color-navy: #1F2D3D;
+  --color-gold: #A8835C;
+  --color-gold-hover: #96724E;
+  --color-line-green: #06C755;
+  --color-line-hover: #05B34C;
+}
+
+body {
+  background-color: var(--color-warm-bg);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar and aesthetics */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F1EA;
+}
+::-webkit-scrollbar-thumb {
+  background: #D1CAC0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A8835C;
+}
+
+/* Custom styles for transitions */
+.transition-luxury {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
